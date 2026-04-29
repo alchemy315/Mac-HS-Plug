@@ -28,7 +28,7 @@
 4. **勾选** `Allow access via Terminal`（允许通过终端访问）。
 
 ### 第二步：安装本程序
-1. 在本仓库的 [Releases](https://github.com/your-username/your-repo/releases) 页面下载最新的 `.dmg` 文件。
+1. 在本仓库的 [Releases](https://github.com/alchemy315/Mac-HS-Plug/releases/tag/v1) 页面下载最新的 `.dmg` 文件。
 2. 双击打开并将“一键拔线”拖入 `Applications`（应用程序）文件夹。
 
 ### 第三步：软件初始化
@@ -50,8 +50,8 @@
 
 ## 👨‍💻 关于
 
-- 开发：alchemy & ai
-- 源代码：[GitHub Repository](https://github.com/your-username/your-repo)
+- 开发：alchemy & ai (感谢gpt和gemini)
+- 源代码：[GitHub Repository](https://github.com/alchemy315/Mac-HS-Plug)
 
 
 ## ⚠️ 常见问题：提示“应用已损坏”怎么办？
