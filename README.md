@@ -52,3 +52,16 @@
 
 - 开发：alchemy & ai
 - 源代码：[GitHub Repository](https://github.com/your-username/your-repo)
+
+
+## ⚠️ 常见问题：提示“应用已损坏”怎么办？
+
+因为本软件属于开源未签名应用，macOS 的 Gatekeeper 安全机制可能会拦截。如果你在运行软件时遇到**“应用已损坏，无法打开”**的提示，请按以下步骤解决：
+
+1. 将 App 从 DMG 中拖拽到你 Mac 的 **“应用程序 (Applications)”** 文件夹中。
+2. 打开 Mac 自带的 **“终端 (Terminal)”**。
+3. 复制并粘贴以下命令，然后按下回车：
+   sudo xattr -r -d com.apple.quarantine /Applications/一键拔线.app
+   *(注意：如果你的应用名字不是“一键拔线”，请自行替换路径)*
+4. 终端会要求你输入 Mac 的开机密码（输入时不会显示密码字符，输入完直接回车即可）。
+5. 再次去“应用程序”里双击打开软件，就可以正常运行了！
