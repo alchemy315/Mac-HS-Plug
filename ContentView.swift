@@ -461,7 +461,7 @@ struct ContentView: View {
                         
                         // ===== 添加的 GitHub 链接 =====
                         // 请在此处将 https://github.com/your-username/your-repo 替换为你真实的仓库地址
-                        Link(destination: URL(string: "https://github.com/your-username/your-repo")!) {
+                        Link(destination: URL(string: "https://github.com/alchemy315/Mac-HS-Plug")!) {
                             Label("源代码：GitHub", systemImage: "link")
                         }
                     }
